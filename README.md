@@ -16,7 +16,8 @@ This project walks through a complete image classification pipeline:
 2. Building a CNN from scratch with `torch.nn`
 3. Training the model with the Adam optimizer
 4. Tracking training and validation loss across epochs
-5. Evaluating the final model on the test set
+5. Saving the best params for the model
+6. Evaluating the final model on the test set
 
 ## Dataset
 
@@ -62,7 +63,7 @@ The network has three convolutional blocks followed by two fully connected layer
 
 After training, the notebook plots **training loss vs. validation loss** per epoch and prints the final test accuracy.
 
-> **Test Accuracy:** `74.98`
+> **Test Accuracy:** `76.34`
 
 ## Getting Started
 
