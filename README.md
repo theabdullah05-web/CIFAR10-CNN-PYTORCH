@@ -99,15 +99,6 @@ cifar10-cnn-pytorch/
 └── README.md
 ```
 
-## Possible Improvements
-
-- Add **data augmentation** (random flips, crops) to reduce overfitting
-- Add **Batch Normalization** and **Dropout** layers
-- Use a **learning rate scheduler**
-- Save the best model checkpoint based on validation loss
-- Train on GPU and for more epochs
-- Add a confusion matrix and per-class accuracy
-
 ## Tech Stack
 
 - Python
